@@ -1,0 +1,119 @@
+body{
+  background-color: #E3F4F4;
+}
+
+img{
+  padding: 40px;
+  padding-bottom: 18px;
+  margin: 0;
+  width: 200px;
+  
+}
+
+
+
+h1{
+  font-size: 80px;
+  color: #111;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 40px;
+  padding-bottom: 10px;
+  
+}
+
+h1>span{
+  color: navy;
+}
+
+div{
+  display: inline-block;
+  width: 48%;
+}
+
+.img{
+  height: 200px;
+  width: 300px;
+  margin-right: 10px;
+  float: left;
+  
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-top: 20px;
+  
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  padding-right: 20px;
+}
+
+.div1{
+  float: left;
+}
+
+.div2{
+  float: right;
+}
+
+
+
+footer{
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  color: navy;
+  clear: both;
+  padding-top: 1px;
+}
+
+@media (max-width:680px){
+  img{
+    width: 100px;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  div{
+    display: inline;
+    max-width: 48%;
+    padding-right: 2px;
+  }
+
+  .img{
+    max-width: 100%;
+    float: none;
+    display: inline;
+    
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-left: 13%;
+    margin-top: 0;
+    padding: 0;
+    
+    
+  }
+  
+  p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 13%;
+    margin-top: 0;
+    
+  }
+
+  .div1{
+    float: none;
+  }
+
+  .div2{
+    float: none;
+  }
+}
